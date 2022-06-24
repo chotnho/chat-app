@@ -1,0 +1,32 @@
+.navbar-container {
+  display: flex;
+  padding: 1vh;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid rgb(112, 110, 110, 0.2);
+}
+.chat-head-item-navbar {
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.user-name {
+  font-weight: bold;
+}
+
+.navbar-container .user-profile-pic-container {
+  height: 3vh;
+  width: 3vh;
+}
+
+.navbar-container .user-profile-pic-text {
+  font-size: 2.8vh;
+}
+.log-out-button{
+  cursor: pointer;
+  
+}
+.log-out-button:hover{
+  color: rgb(255,0,0)
+}

@@ -1,0 +1,70 @@
+
+* {
+    font-family: Avenir, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+      Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji,
+      Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+      font-family: Roboto, Helvetica, Arial, sans-serif;
+  }
+
+  #login-page {
+    background-image: linear-gradient(#40a9ff, #096dd9);
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+  }
+  
+  #login-card {
+    position: relative;
+    top: calc(50vh - 144px);
+    left: calc(50vw - 210px);
+    padding-top: 36px;
+    padding-bottom: 66px;
+    width: 420px;
+    text-align: center;
+    background-color: white;
+    border-radius: 22px;
+  }
+  .login-screen-container {
+    /* height: 10vh; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 30px;
+  }
+  
+  .login-screen-container button {
+    width: 20vh;
+  }
+  
+  .login-screen-container input {
+    width: 50vh;
+    padding: 1vh;
+  }
+  
+  .login-title {
+    font-size: 5vh;
+    font-weight: bold;
+  }
+  .login-form{
+    display: inline-flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3vh;
+  }
+  /* .register-button {
+    margin-top: 5vh !important;
+  } */
+  .login-pas{
+    margin-top: 10px;
+
+  }
+  .btn{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+
+  }
