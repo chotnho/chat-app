@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import ChatHeader from '../chatheader/ChatHeader'
+import ChatHeads from '../chatheader/ChatHeads'
 import Conversation from '../conversation/Conversation'
 import "./chatscreen.css"
 import {useNavigate} from "react-router-dom"
@@ -38,7 +38,7 @@ console.log(chatHeads);
      <div className="half-screen chat-heads">
       {/* chatheader */}
   
-      <ChatHeader item ={chatHeads} setReceiver={setReceiver}/>
+      <ChatHeads item ={chatHeads} setReceiver={setReceiver}/>
      </div>
      <div className="half-screen">
       {/* chat conversaition */}

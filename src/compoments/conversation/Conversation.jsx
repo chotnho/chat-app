@@ -15,6 +15,7 @@ import {
   FaVideo,
 } from "react-icons/fa";
 
+
 export default function Conversation({ receiver, user }) {
   const [conversationId, setConversationId] = useState(null);
   const [messages, setMessages] = useState([]);
@@ -147,7 +148,7 @@ export default function Conversation({ receiver, user }) {
             <div className="input-message">
               <input placeholder="Hi.." ref={currentMessage} onKeyPress={handleEnterKeyPressDown} />
             </div>
-            <button onClick={sendMessage}>Send</button>
+            <button className="primary" onClick={sendMessage}>Send</button>
             <FaThumbsUp />
           </div>
         </div>
