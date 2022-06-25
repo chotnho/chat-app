@@ -25,7 +25,9 @@
   align-items: center;
   font-weight: bold;
 }
-
+.log-out-button:hover{
+  color: rgb(255,0,0);
+}
 .log-out-button svg {
   margin-right: 0.5vh;
 }
