@@ -4,9 +4,9 @@ import "./navbar.css";
 import { FaSignOutAlt} from "react-icons/fa";
 import ICON from "../../assets/logo.png";
 
-export default function Navbar({ user, setUser }) {
+export default function Navbar ({ user }) {
   let navigate = useNavigate();
-
+  const [ User, setUser] = React.useState();
   const logout = () => {
     localStorage.setItem("user", null);
     setUser(null);

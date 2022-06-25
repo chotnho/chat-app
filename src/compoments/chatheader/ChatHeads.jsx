@@ -15,7 +15,7 @@ export default function ChatHeads({ item, setReceiver }) {
             <div className="user-profile-pic-container">
               <p className="user-profile-pic-text">{obj.email[0]}</p>
             </div>
-            <p lassName="user-profile-pic-text">{obj.email}</p>
+            <p className="user-profile-pic-text">{obj.email}</p>
           </div>
         ))}
     </div>
